@@ -6,6 +6,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
     color: white;
+    gap: 10px;
 }
 .footer .wrap {
     display: flex;
@@ -24,4 +25,18 @@
 .footer .col {
     width: 300px;
     justify-content: center;
+}
+
+.footer hr {
+    color: #ffffff;
+    border: none;
+    border-top: 2px solid #ffffff;
+    overflow: visible;
+    text-align: center;
+    width: 85%;
+}
+#copypalace {
+    width: 75%;
+    justify-content: center;
+    text-align: center;
 }

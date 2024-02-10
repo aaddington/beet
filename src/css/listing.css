@@ -1,7 +1,9 @@
 .listing {
     height: 300px;
+    color: black;
     background-color: #ffe7e7;
     border-radius: 25px;
-    min-width: 400px;
+    width: 400px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
 }
