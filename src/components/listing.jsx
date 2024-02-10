@@ -3,7 +3,8 @@ import '../css/listing.css'
 function Listing (props) {
     return (
         <div className={'listing'}>
-            <p>{props.text}</p>
+            <h2>{props.title}</h2>
+            <p>{props.content}</p>
         </div>
     );
 }
