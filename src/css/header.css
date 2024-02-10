@@ -1,0 +1,15 @@
+.header {
+    background-color: #5b0000;
+    padding: 25px;
+    text-decoration: none;
+    width: 100%;
+}
+.header a {
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    color: white;
+}
+.header a:hover {
+    color: blue;
+    font-size: 105%;
+}

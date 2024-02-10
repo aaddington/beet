@@ -1,0 +1,13 @@
+.footer {
+    background-color: red;
+    padding: 25px;
+}
+.footer a {
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    color: white;
+}
+.footer a:hover {
+    color: blue;
+    font-size: 105%;
+}

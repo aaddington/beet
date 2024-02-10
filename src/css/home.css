@@ -1,0 +1,20 @@
+.home_wrap {
+    min-height: 1200px;
+    background-color: #232323;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    gap: 10px;
+    justify-content: center;
+}
+.listing_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+    justify-items: center;
+}
+.content_wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
