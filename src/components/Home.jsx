@@ -27,7 +27,6 @@ function Home () {
                 <h1>Beet the blockchain</h1>
             </div>
         </div>
-
         <div className={'content_wrap'}>
         {[...Array(3)].map((_, index) => (
             <div key={index} className={'listing_grid'}>
