@@ -1,6 +1,16 @@
 .footer {
     background-color: #d46371;
     padding: 25px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    color: white;
+}
+.footer .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .footer a {
     text-decoration: none;
@@ -10,4 +20,8 @@
 .footer a:hover {
     color: blue;
     font-size: 105%;
+}
+.footer .col {
+    width: 300px;
+    justify-content: center;
 }
