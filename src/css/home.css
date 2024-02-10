@@ -15,10 +15,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 25px;
 }
 
 .video-container {
-    height: 720px;
+    height: 1000px;
     width: 100%;
     position: relative;
 }
