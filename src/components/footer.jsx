@@ -33,13 +33,15 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <p>
-                © 2023 Bookit. All Rights Reserved. All movies on this platform
-                are trademarks of, and all related images and content are the
-                property of, Bookit and the people who worked on it. Duplication
-                and copy of this is strictly prohibited. All rights reserved.
-            </p>
+            <hr/>
+            <div id={'copypalace'}>
+                <p>
+                     © 2023 beet. All Rights Reserved. Duplication
+                     and copy of this visual admiration is strictly prohibited. All rights reserved.
+                </p>
+            </div>
         </div>
+
     );
 }
 
