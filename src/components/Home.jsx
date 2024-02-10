@@ -1,8 +1,9 @@
 import '../css/home.css'
 import Listing from './listing';
 import Side from "./side";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import vid from '../assets/BgVid.mp4'
+import Header from "./header";
+import Footer from "./footer";
 function Home () {
     const dataset = [{
         title: "Who are we?",
@@ -16,27 +17,26 @@ function Home () {
     }]
     return (
         <>
-            {Header()}
-    <div className={'home_wrap'}>
+            <Header/>
+        <div className={'home_wrap'}>
 
-        <div className="video-container">
-            <video autoPlay muted loop>
-                <source src="https://images-assets.nasa.gov/video/GSFC_20170419_EarthFleet_m12586_2017/GSFC_20170419_EarthFleet_m12586_2017~orig.mp4" type="video/mp4" />
-            </video>
-            <div className="caption">
-                <h1>Beet the blockchain</h1>
+            <div className="video-container">
+                <video autoPlay muted loop>
+                    <source src={vid} type="video/mp4" />
+                </video>
+            </div>
+
+
+
+            <div className={'content_wrap'}>
+                {[...Array(3)].map((_, index) => (
+                    <div key={index} className={'listing_grid'}>
+                        {Listing(dataset[index])}
+                    </div>
+                ))}
             </div>
         </div>
-
-        <div className={'content_wrap'}>
-        {[...Array(3)].map((_, index) => (
-            <div key={index} className={'listing_grid'}>
-                {Listing(dataset[index])}
-            </div>
-        ))}
-        </div>
-    </div>
-            {Footer()}
+            <Footer/>
         </>
     );
 }
