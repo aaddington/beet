@@ -6,4 +6,9 @@
     width: 400px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     padding: 25px;
+    transition: 0.3s ease-out;
+}
+.listing:hover {
+    transform: scale(1.1);
+    background-color: #fdd1d1;
 }
