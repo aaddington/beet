@@ -1,17 +1,37 @@
 import '../css/header.css'
-import logo from '../assets/images/beet.png'
-import * as React from "react";
 
 function Header() {
     return (
+
         <div className="header">
             <div className={'left'}>
-                <a href="/"><img id={'header_icon'} src={logo} alt={'Logo'} width={'125px'}/></a>
+                <a href="#">Home</a>
             </div>
             <div className={'right'}>
-                <a href="#">Partners</a>
-                <a href="#">Help</a>
-                <a href="#">Solutions</a>
+                <div className="dropdown">
+                    <a href="#">Solutions</a>
+                    <div className="dropdown-content">
+                        <a href="#">Option 1</a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                    </div>
+                </div>
+                <div className="dropdown">
+                    <a href="#">Help</a>
+                    <div className="dropdown-content">
+                        <a href="#">Option 1</a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                    </div>
+                </div>
+                <div className="dropdown">
+                    <a href="#">Partners</a>
+                    <div className="dropdown-content">
+                        <a href="#">Option 1</a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                    </div>
+                </div>
             </div>
         </div>
     );
