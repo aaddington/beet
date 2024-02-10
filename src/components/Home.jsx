@@ -2,6 +2,8 @@ import '../css/home.css'
 import Listing from './listing';
 import Side from "./side";
 import vid from '../assets/BgVid.mp4'
+import Header from "./header";
+import Footer from "./footer";
 function Home () {
     const dataset = [{
         title: "Who are we?",
@@ -14,6 +16,8 @@ function Home () {
         content: "Beet was established in November of 1979 when our owner came home from the grocery store, and he discovered that he had purchased beets instead of potato sammiches."
     }]
     return (
+        <>
+            <Header/>
         <div className={'home_wrap'}>
 
             <div className="video-container">
@@ -32,6 +36,8 @@ function Home () {
                 ))}
             </div>
         </div>
+            <Footer/>
+        </>
     );
 }
 export default Home;
