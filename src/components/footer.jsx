@@ -22,16 +22,17 @@ function Footer() {
                 <div className={'col'}>
                     <h2>Partners</h2>
                     <ul className={'spaced-list'}>
-                        <li><a href="/#">Jimmy's Hamburger Palace & Suites</a></li>
-                        <li><a href="/#">Jerry Lewis Extreme Company</a></li>
-                        <li><a href="/#">Raytheon Technologies</a></li>
+                        <li><a href="/#">Jason's Extreme Edition LLC</a></li>
+                        <li><a href="/#">Jerry Johnson's Palace Company</a></li>
+                        <li><a href="/#">Joe Finance</a></li>
                     </ul>
                 </div>
                 <div className={'col'}>
                     <h2>Legal</h2>
                     <ul className={'spaced-list'}>
-                        <li><a href="/#">Jerry</a></li>
-                        <li><a href="/#">Lewis</a></li>
+                        <li><a href="/#">Article 1</a></li>
+                        <li><a href="/#">Article 2</a></li>
+                        <li><a href="/#">Article 3</a></li>
                     </ul>
                 </div>
                 <div className={'col'}>
