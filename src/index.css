@@ -3,7 +3,6 @@ body {
   font-family:'Roboto Condensed';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:url('../src/assets//images/blockchainBG.webp');
 }
 
 code {

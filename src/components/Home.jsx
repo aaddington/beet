@@ -29,7 +29,7 @@ function Home() {
     useEffect(() => {
         const timer = setInterval(() => {
             setVisibleIndex((prevIndex) => (prevIndex + 1) % 3);
-        }, 10000);
+        }, 5000);
         return () => clearInterval(timer);
     }, []);
 
@@ -49,7 +49,7 @@ function Home() {
             <div className={'home_wrap'}>
                 <div className="video-container">
                     <div className={'caption'}>
-                        <a href={'/'}>Get Started</a>
+                        <a href={'/Signup'}>Get Started</a>
                     </div>
                     <video autoPlay muted loop>
                         <source src={vid} type="video/mp4" />

@@ -10,6 +10,7 @@ function Header() {
                     <a href="#">Solutions</a>
                     <a href="#">Help</a>
                     <a href="#">Partners</a>
+                    <a href="/Login">Login</a>
             </div>
         </div>
     );

@@ -7,31 +7,38 @@ function Footer() {
                 <div className={'col'}>
                     <h2>Solutions</h2>
                     <ul className={'spaced-list'}>
-                        <li>Transaction Hashing</li>
-                        <li>Interest filling intervals</li>
-                        <li>High frequency stock trading</li>
+                        <li><a href="/#">Transaction Hashing</a></li>
+                        <li><a href="/#">Interest filling intervals</a></li>
+                        <li><a href="/#">High frequency stock trading</a></li>
                     </ul>
                 </div>
                 <div className={'col'}>
                     <h2>Help</h2>
                     <ul className={'spaced-list'}>
-                        <li>How do we operate?</li>
-                        <li>Previous accomplishments</li>
+                        <li><a href="/#">How do we operate?</a></li>
+                        <li><a href="/#">Previous accomplishments</a></li>
                     </ul>
                 </div>
                 <div className={'col'}>
                     <h2>Partners</h2>
                     <ul className={'spaced-list'}>
-                        <li>Jimmy's Hamburger Palace & Suites</li>
-                        <li>Jerry Lewis Extreme Company</li>
-                        <li>Raytheon Technologies</li>
+                        <li><a href="/#">Jimmy's Hamburger Palace & Suites</a></li>
+                        <li><a href="/#">Jerry Lewis Extreme Company</a></li>
+                        <li><a href="/#">Raytheon Technologies</a></li>
                     </ul>
                 </div>
                 <div className={'col'}>
                     <h2>Legal</h2>
                     <ul className={'spaced-list'}>
-                        <li>Jerry</li>
-                        <li>Lewis</li>
+                        <li><a href="/#">Jerry</a></li>
+                        <li><a href="/#">Lewis</a></li>
+                    </ul>
+                </div>
+                <div className={'col'}>
+                    <h2>Login Options</h2>
+                    <ul className={'spaced-list'}>
+                        <li><a href="/Login">Login</a></li>
+                        <li><a href="/Signup">Signup</a></li>
                     </ul>
                 </div>
             </div>
