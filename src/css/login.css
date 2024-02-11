@@ -84,8 +84,8 @@
     background: #141414;
   }
   .login_bg {
-    background-image: url("../assets/images/blockchainBG.webp");
+    background-image: url("../assets/images/back_log.jpeg");
     height: 800px;
     overflow: hidden;
-    object-fit: fill;
+    object-fit: contain;
   }
