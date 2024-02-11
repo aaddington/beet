@@ -40,3 +40,6 @@
     justify-content: center;
     text-align: center;
 }
+.spaced-list li {
+    margin-top: 10px;
+}
