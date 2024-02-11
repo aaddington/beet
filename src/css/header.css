@@ -1,0 +1,49 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the header full width */
+    z-index: 2; /* Place the header above the video */
+    padding: 20px;
+}
+.header a {
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    color: white;
+    font-size: 28px;
+}
+.header .right a {
+    margin-left: 100px;
+}
+.header:hover {
+    background-color: black; /* Background color on hover */
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+div.dropdown i.fa-user {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-right: 5px; /* Add some spacing to the right of the icon */
+  }
