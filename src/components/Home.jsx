@@ -7,11 +7,6 @@ import slide2 from '../assets/images/slide2.png'
 import slide3 from '../assets/images/slide3.png'
 import left from '../assets/images/left-arrow.png'
 import right from '../assets/images/right-arrow.png'
-import slide1 from '../assets/images/slide1.png'
-import slide2 from '../assets/images/slide2.png'
-import slide3 from '../assets/images/slide3.png'
-import left from '../assets/images/left-arrow.png'
-import right from '../assets/images/right-arrow.png'
 import Header from "./header";
 import Footer from "./footer";
 import React, { useState, useEffect } from 'react';

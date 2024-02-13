@@ -1,6 +1,5 @@
 import '../css/header.css'
 import icon from '../assets/images/beet.png'
-import icon from '../assets/images/beet.png'
 function Header() {
     return (
         <div className="header">
