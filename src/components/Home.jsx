@@ -7,9 +7,15 @@ import slide2 from '../assets/images/slide2.png'
 import slide3 from '../assets/images/slide3.png'
 import left from '../assets/images/left-arrow.png'
 import right from '../assets/images/right-arrow.png'
+import slide1 from '../assets/images/slide1.png'
+import slide2 from '../assets/images/slide2.png'
+import slide3 from '../assets/images/slide3.png'
+import left from '../assets/images/left-arrow.png'
+import right from '../assets/images/right-arrow.png'
 import Header from "./header";
 import Footer from "./footer";
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -29,7 +35,7 @@ function Home() {
     useEffect(() => {
         const timer = setInterval(() => {
             setVisibleIndex((prevIndex) => (prevIndex + 1) % 3);
-        }, 5000);
+        }, 10000);
         return () => clearInterval(timer);
     }, []);
 
@@ -49,7 +55,8 @@ function Home() {
             <div className={'home_wrap'}>
                 <div className="video-container">
                     <div className={'caption'}>
-                        <a href={'/Signup'}>Get Started</a>
+                    <p>Beet brings revolution</p>
+                        <Link to='/Login'>Get Started</Link>
                     </div>
                     <video autoPlay muted loop>
                         <source src={vid} type="video/mp4" />
@@ -91,5 +98,6 @@ function Home() {
         </>
     );
 }
+
 
 export default Home;

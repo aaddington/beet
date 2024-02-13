@@ -59,6 +59,18 @@ video{
     font-size: 60px;
     color: #ee93ff;
 }
+.caption {
+    font-size: 40px;
+}
+.caption a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-out;
+}
+.caption a:hover {
+    font-size: 60px;
+    color: #ee93ff;
+}
 .video-container video {
     width: 100%;
     height: auto;

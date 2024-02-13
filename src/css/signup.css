@@ -1,9 +1,9 @@
 .body {
     margin: 0 auto; 
     max-width: 600px; 
-  
     padding-left: 195px;
     padding-top: 20px;
+    
   }
   
   .signup_center_title {
@@ -27,12 +27,12 @@
   }
   
   .signup_container {
-    background-color: #f2f2f2;
+    background-color:transparent;
     display: flex;
     flex-direction: column;
   align-items: center;
     padding: 20px;
-    border: 2px solid red;
+    border: 2px solid black;
     width: 50%; 
     margin: 20px auto 100px;
     
