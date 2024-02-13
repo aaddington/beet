@@ -1,9 +1,11 @@
 import '../css/header.css'
 import icon from '../assets/images/beet.png'
+import icon from '../assets/images/beet.png'
 function Header() {
     return (
         <div className="header">
             <div className={'left'}>
+                <a href="/"><img id="img_logo" src={icon} alt={'Logo'}/></a>
                 <a href="/"><img id="img_logo" src={icon} alt={'Logo'}/></a>
             </div>
             <div className={'right'}>

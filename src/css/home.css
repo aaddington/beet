@@ -39,6 +39,25 @@ video{
     left: 50px;
     color: #ffffff;
     padding: 10px;
+    border: white solid;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.caption {
+    font-size: 55px;
+}
+.caption:hover {
+    border: #ee93ff solid;
+}
+.caption a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-out;
+}
+.caption a:hover {
+    font-size: 60px;
+    color: #ee93ff;
 }
 .caption {
     font-size: 40px;

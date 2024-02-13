@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import '../css/login.css';
 import Header from './header';
 import { signInWithEmailAndPassword } from 'firebase/auth'; // Import the signInWithEmailAndPassword method from Firebase Authentication
-import {auth} from '../firebase.js' // Import your Firebase authentication instance
+import {auth} from '../firebase.js'
+import Footer from "./footer"; // Import your Firebase authentication instance
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -27,6 +28,7 @@ function Login() {
   return (
     <>
       <Header />
+      <div className="login_bg">
       <div className="login_center_title">Log In</div>
 
       <div className="login_form">
@@ -75,6 +77,8 @@ function Login() {
           </div>
         </form>
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }

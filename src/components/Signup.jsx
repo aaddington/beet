@@ -4,7 +4,8 @@ import '../css/signup.css';
 import Header from './header';
 import { createUserWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../firebase'; 
-import Home from './Home'; // Import your Home component
+import Home from './Home';
+import Footer from "./footer"; // Import your Home component
 
 function SignUp() {
   const [email, setEmail] = useState('');
@@ -42,6 +43,7 @@ function SignUp() {
   return (
     <>
       <Header />
+      <div className="login_bg">
       <div className="signup_center_title">Sign Up</div>
 
       <div className="signup_form">
@@ -92,6 +94,8 @@ function SignUp() {
           </div>
         </form>
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }
