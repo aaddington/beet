@@ -1,38 +1,15 @@
 import '../css/header.css'
-import { Link } from 'react-router-dom';
-import Login from './Login';
+import icon from '../assets/images/beet.png'
 function Header() {
     return (
-
         <div className="header">
             <div className={'left'}>
-                <a href="#">Home</a>
+                <a href="/"><img id="img_logo" src={icon} alt={'Logo'}/></a>
             </div>
             <div className={'right'}>
-                <div className="dropdown">
-                    <a href="#">Solutions</a>
-                    <div className="dropdown-content">
-                        <a href="#">Option 1</a>
-                        <a href="#">Option 2</a>
-                        <a href="#">Option 3</a>
-                    </div>
-                </div>
-                <div className="dropdown">
-                    <a href="#">Help</a>
-                    <div className="dropdown-content">
-                        <a href="#">Option 1</a>
-                        <a href="#">Option 2</a>
-                        <a href="#">Option 3</a>
-                    </div>
-                </div>
-                <div className="dropdown">
-                    <a href="#">Users</a>
-                    <div className="dropdown-content">
-                    <Link to="/Login">Login</Link>
-                    <Link to="/SignUp">Signup</Link>
-                        <a href="#">Option 3</a>
-                    </div>
-                </div>
+                    <a href="#">Solutions </a>
+                    <a href="#">Help </a>
+                    <a href="#">Partners </a>
             </div>
         </div>
     );
