@@ -9,7 +9,7 @@ function Header() {
             <div className={'right'}>
                     <a href="#">Solutions</a>
                     <a href="#">Help</a>
-                    <a href="#">Partners</a>
+                    <a href="/Partners">Partners</a>
                     <a href="/Login">Login</a>
             </div>
         </div>
