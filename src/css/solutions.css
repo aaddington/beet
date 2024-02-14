@@ -1,0 +1,24 @@
+.sol_div {
+    min-height: 600px;
+    text-align: center;
+    justify-items: center;
+}
+.sol_div * {
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    opacity: 90%;
+}
+
+.sol_div li, .sol_div h2 {
+    transition: 0.2s ease-out;
+}
+.sol_div li:hover, .sol_div h2:hover {
+    transform: scale(1.5);
+    color: #ff4362;
+}
+.sol_div h2 {
+    margin-top: 150px;
+    font-size: 32px;
+}
