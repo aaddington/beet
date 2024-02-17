@@ -50,7 +50,6 @@ function Home() {
             <div className={'home_wrap'}>
                 <div className="video-container">
                     <div className={'caption'}>
-                    <p>Beet brings revolution</p>
                         <Link to='/Login'>Get Started</Link>
                     </div>
                     <video autoPlay muted loop>
